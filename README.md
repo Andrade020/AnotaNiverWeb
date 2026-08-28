@@ -6,8 +6,12 @@
 
 Um app simples, bonito e direto ao ponto, adicione as datas e o app lembra por você.
 
-[![Acesse o app](https://img.shields.io/badge/Acesse%20o%20app-%E2%86%92-FF6B6B?style=for-the-badge)](https://anota-niver-web.vercel.app/)
+### 🔗 [**anota-niver-web.vercel.app**](https://anota-niver-web.vercel.app/)
+
+[![Acesse o app ao vivo](https://img.shields.io/badge/Acesse%20o%20app%20ao%20vivo-%E2%86%92-FF6B6B?style=for-the-badge)](https://anota-niver-web.vercel.app/)
 [![PWA](https://img.shields.io/badge/PWA-Instala%20no%20celular-06D6A0?style=for-the-badge)](#como-instalar-no-celular)
+
+Abre direto no navegador, sem instalar nada, o app já está no ar.
 
 <br/>
 
@@ -83,6 +87,28 @@ Toque em qualquer card para editar os dados ou remover o aniversário.
 - Deploy: [Vercel](https://vercel.com/)
 
 Os dados ficam salvos **apenas no seu dispositivo**, nenhuma informação é enviada para servidores.
+
+---
+
+## Rodando localmente
+
+> Só precisa disso se você for **desenvolver** o app. Para usar, é só acessar o [link ao vivo](https://anota-niver-web.vercel.app/) lá em cima.
+
+```bash
+git clone https://github.com/Andrade020/AnotaNiverWeb.git
+cd AnotaNiverWeb
+npm install
+npm run dev
+```
+
+Outros scripts disponíveis:
+
+| Comando           | O que faz                              |
+| ------------------ | --------------------------------------- |
+| `npm run dev`     | Sobe o servidor de desenvolvimento      |
+| `npm run build`   | Gera a build de produção (`tsc` + Vite) |
+| `npm run preview` | Serve a build de produção localmente    |
+| `npm run lint`    | Roda o ESLint                           |
 
 ---
 
